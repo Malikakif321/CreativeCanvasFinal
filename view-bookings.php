@@ -61,7 +61,6 @@ echo '<!DOCTYPE html>
 <body>
 <div class="container">
     <h1>Manage Bookings</h1>
-    <a href="admin.php" style="display:inline-block; padding:10px 15px; background:#4CAF50; color:white; text-decoration:none; border-radius:5px;">Back to Admin Panel</a>
 
     <table>
         <thead>

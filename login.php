@@ -33,15 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
     $conn->close();
 }
-<<<<<<< HEAD
 ?>
 
-=======
-
-?>
-
-
->>>>>>> 20ed5b3 (Added Creative Canvas project)
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -10,15 +10,6 @@
   <header>
     <div class="logo">Creative Canvas Gallery</div>
     <nav>
-<<<<<<< HEAD
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="featured-artists.html">Featured Artist</a></li>
-        <li><a href="virtualtour.html">Virtual Tour</a></li>
-        <li><a href="booking.html">Booking</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="login.html">Log In</a></li>
-=======
       <ul> 
         <li><a href="index.php">Home</a></li>
         <li><a href="featured-artists.php">Featured Artist</a></li>
@@ -26,30 +17,12 @@
         <li><a href="booking.php">Booking</a></li>
         <li><a href="about.php">About Us</a></li>
         <li><a href="login.php">Log In</a></li>
->>>>>>> 20ed5b3 (Added Creative Canvas project)
       </ul>
     </nav>
   </header>
 
   <h2>Upcoming Exhibitions</h2>
   <div class="artist-gallery">
-<<<<<<< HEAD
-    <div class="artist-card">
-      <h3>Art & Beyond</h3>
-      <p>Jan 1 - Jan 30</p> <br>
-      <button class="book-button" onclick="window.location.href='booking.html';">Book Now</button>
-    </div>
-    <div class="artist-card">
-      <h3>Colors of Life</h3>
-      <p>Feb 1 - Feb 28</p><br>
-      <button class="book-button" onclick="window.location.href='booking.html';">Book Now</button>
-    </div>
-    <div class="artist-card">
-      <h3>Modern Perspectives</h3>
-      <p>March 1 - March 30</p><br>
-      <button class="book-button" onclick="window.location.href='booking.html';">Book Now</button>
-    </div>
-=======
     <?php
     include 'db.php';
     $sql = "SELECT * FROM exhibition ORDER BY start_date ASC";
@@ -68,7 +41,6 @@
     }
     $conn->close();
     ?>
->>>>>>> 20ed5b3 (Added Creative Canvas project)
   </div>
 
   <footer>
